@@ -1,0 +1,40 @@
+.elementor-169 .elementor-element.elementor-element-0da4f79{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;border-style:none;--border-style:none;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-169 .elementor-element.elementor-element-0da4f79, .elementor-169 .elementor-element.elementor-element-0da4f79::before{--border-transition:0.3s;}.elementor-169 .elementor-element.elementor-element-2687580 .elementor-counter-number-wrapper{color:#000000;font-family:"Roboto", Sans-serif;font-weight:600;}.elementor-169 .elementor-element.elementor-element-2687580 > .elementor-widget-container{border-style:solid;border-color:#FFEC00;}.elementor-169 .elementor-element.elementor-element-22f849f{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--background-transition:0.3s;}.elementor-169 .elementor-element.elementor-element-27bc241 .elementor-icon-list-icon i{color:#259B0E;transition:color 0.3s;}.elementor-169 .elementor-element.elementor-element-27bc241 .elementor-icon-list-icon svg{fill:#259B0E;transition:fill 0.3s;}.elementor-169 .elementor-element.elementor-element-27bc241{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-169 .elementor-element.elementor-element-27bc241 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-169 .elementor-element.elementor-element-27bc241 .elementor-icon-list-item > a{font-family:"Roboto", Sans-serif;font-weight:500;}.elementor-169 .elementor-element.elementor-element-27bc241 .elementor-icon-list-text{color:#000000;transition:color 0.3s;}.elementor-169 .elementor-element.elementor-element-7ffdb16{--display:flex;--background-transition:0.3s;}.elementor-169 .elementor-element.elementor-element-ff17fcc{--display:flex;--background-transition:0.3s;}.elementor-169 .elementor-element.elementor-element-1b34725 .elementor-heading-title{color:#000000;font-family:"Galindo", Sans-serif;font-weight:600;}.elementor-169 .elementor-element.elementor-element-44bd59b{color:#000000;font-family:"Roboto", Sans-serif;font-weight:400;}.elementor-169 .elementor-element.elementor-element-dc9f333 .elementor-button{fill:#000000;color:#000000;background-color:#FFEC00;}.elementor-169 .elementor-element.elementor-element-0c34db7{color:#000000;font-family:"Roboto", Sans-serif;font-weight:400;}@media(max-width:767px){.elementor-169 .elementor-element.elementor-element-0da4f79{--min-height:0px;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--justify-content:space-between;--align-items:center;--border-radius:0px 0px 0px 0px;}.elementor-169 .elementor-element.elementor-element-26c07df{text-align:left;width:var( --container-widget-width, 139px );max-width:139px;--container-widget-width:139px;--container-widget-flex-grow:0;}.elementor-169 .elementor-element.elementor-element-26c07df img{width:100%;}.elementor-169 .elementor-element.elementor-element-2687580 .elementor-counter-number-wrapper{font-size:23px;}.elementor-169 .elementor-element.elementor-element-2687580 > .elementor-widget-container{padding:5px 5px 5px 5px;border-width:1px 1px 1px 1px;border-radius:5px 5px 5px 5px;}.elementor-169 .elementor-element.elementor-element-22f849f{--min-height:350px;--justify-content:center;--gap:20px 20px;}.elementor-169 .elementor-element.elementor-element-27bc241{--e-icon-list-icon-size:20px;}.elementor-169 .elementor-element.elementor-element-7ffdb16{--min-height:200px;}.elementor-169 .elementor-element.elementor-element-1b34725{text-align:center;}.elementor-169 .elementor-element.elementor-element-1b34725 .elementor-heading-title{font-size:20px;}.elementor-169 .elementor-element.elementor-element-44bd59b{text-align:center;font-size:14px;}.elementor-169 .elementor-element.elementor-element-dc9f333 .elementor-button{border-radius:10px 10px 10px 10px;}.elementor-169 .elementor-element.elementor-element-0c34db7{text-align:center;font-size:14px;}}/* Start custom CSS for button, class: .elementor-element-dc9f333 */.x{
+    animation: pulse .9s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+		
+	}
+
+	100% {
+		transform: scale(0.95);
+		
+	}
+}/* End custom CSS */
+/* Start custom CSS */}
+
+/*Remover espaço em textos*/
+p:last-child{
+    margin-bottom: 0px !important;
+}
+
+.elementor-heading-title{
+    margin-bottom: 0px !important;
+}
+
+.elementor-image-box-title{
+    margin-top: -8px!important;
+}
+
+
+/*Remover scroll horizontal*/
+html, body{
+    width: 100%;
+    overflow-x: hidden !important;
+}/* End custom CSS */
